@@ -1,0 +1,62 @@
+body {
+    background-color: #0c3e11;
+    background-size: cover;
+    font-family: 'Helvetica';
+}
+
+@font-face {
+    font-family: 'breakingbadfont';
+    src: url('fonts/Breaking Bad.ttf') format('truetype'); /* ruta .ttf */
+}
+
+#fondo {
+    background-image: url('img/fondo.jpg');
+    background-size: cover
+}
+
+#iconoindex {
+    display: block;
+    margin-left: auto; /* margen izq */
+    margin-right: auto; /* margen der */
+    width: 200px; /* anchura */
+    height: 200px; /* altura */
+}
+#tituloindex {
+    font-family: 'breakingbadfont';
+    text-align: center;
+    color: white;
+}
+#posterindex {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px; /* anchura */
+    height: 300px; /* altura */
+    border: 10px outset brown; /* grosor de borde, outset da efecto 3D */
+    border-radius: 22px; /* esquinas redondeadas */
+}
+#tituloformulario {
+    font-family: 'breakingbadfont';
+    text-align: center;
+    color: white;
+}
+#seccionformulario {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+}
+
+div {
+    margin-bottom: 20px
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background-color: brown;
+    color: whitesmoke;
+    cursor: pointer;
+  }
